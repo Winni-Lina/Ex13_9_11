@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
                     public void run(){
                         for (int i = seek1.getProgress(); i<100; i=i+2)
                         seek1.setProgress(seek1.getProgress()+2);
-                        SystemClock.sleep(100);
+                        SystemClock.sleep(300);
                     }
                 };
 
@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
                     public void run(){
                         for (int i = seek2.getProgress(); i<100; i++)
                             seek2.setProgress(seek2.getProgress()+1);
-                        SystemClock.sleep(100);
+                        SystemClock.sleep(300);
                     }
                 };
 
